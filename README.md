@@ -17,7 +17,13 @@ You can start editing the page by modifying `src/app/page.tsx`. The page auto-up
 
 The site uses `next/font` to self-host Cardo, Josefin Slab, and Open Sans.
 
-## Contact form configuration
+## Contact page
+
+The public contact page displays Barbara's email address (`barbara@leaningoakranch.com`) as a clickable email link, along with the phone number and venue address. As of November 13, 2026, it no longer renders the inquiry form or loads its Turnstile widget. Visitors contact Barbara through their own email app. Email and phone link clicks retain the existing consent-based analytics.
+
+## Archived contact form configuration
+
+The form component and API endpoint are retained in the repository but are no longer used by the contact page. The configuration and delivery checks below describe that earlier form integration; they are not required for the direct email link.
 
 Copy `.env.example` to `.env.local`, then set your provider's values. Never commit credentials. The configured SMTP.com integration uses its HTTP API, matching [the working Trends mailer](https://github.com/citrynmarketingdevelopment/trends-frontend/blob/main/src/features/contact/mail.ts).
 

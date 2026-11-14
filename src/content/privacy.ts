@@ -12,7 +12,7 @@ export const privacySections: PrivacySection[] = [
   {
     heading: "Personal Information Collection",
     paragraphs: [
-      "As is the standard policy of most websites, we automatically gather information about your computer such as your IP address, browser type, referring/exit pages, and operating system. A user may also contact us through our Contact Form embedded on our website. We gather information through the Contact Form such as first name, last name, telephone number, and/or e-mail address.",
+      "As is the standard policy of most websites, we automatically gather information about your computer such as your IP address, browser type, referring/exit pages, and operating system. You may also contact us directly by email or phone. When you do, we receive the information you choose to share, such as your name, telephone number, email address, and event details.",
       "We use this information to:",
     ],
     items: [
